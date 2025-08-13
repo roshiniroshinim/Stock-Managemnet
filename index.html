@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+        <h2>Login</h2>
+        
+        <!-- Username Field -->
+        <input type="text" id="username" placeholder="Username">
+        
+        <!-- Password Field with Eye Icon -->
+        <div class="password-wrapper">
+            <input type="password" id="password" placeholder="Password">
+            <span class="toggle-eye" onclick="togglePassword()">👁</span>
+        </div>
+
+        <!-- Login Button -->
+        <button onclick="login()">Login</button>
+        
+        <!-- Error Message -->
+        <p id="error" class="error"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
